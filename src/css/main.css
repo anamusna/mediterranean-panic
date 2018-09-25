@@ -1,0 +1,134 @@
+body{
+    font: 14px/1.4 "Helvetica Neue",
+   Helvetica, Arial, sans-serif;
+     }
+.main-content{
+   max-width: 90%;
+   margin: auto;
+}
+.content {
+   padding: 20px;
+   max-width:90%;
+   margin: auto;
+   margin-top: 30px;
+}
+
+form {
+       border-radius: 5px;
+       overflow: hidden;
+  float: left;
+     }
+input[type=text], select, textarea {
+  width: 80%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 20px;
+   box-sizing: border-box;
+   margin-left: 20%;
+   margin-bottom: 15px;   
+   display: block;
+}
+input[type=submit] {
+   background-color: red;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-left: 20%;
+}
+input[type=submit]:hover {
+   background-color: #45a049;
+}
+input[type=number]{
+   width: 80%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 20px;
+   box-sizing: border-box;
+   margin-left: 20%;
+   margin-bottom: 15px;   
+   display: block;
+}
+
+fieldset{
+   border-radius: 10px;
+   border: 2px solid pink;
+   background-color: #ccc;
+ 
+}
+label{
+  float: left;
+}
+legend{
+   padding: 10px;
+   border-top: 2px solid pink;
+    border-left: 2px solid pink;
+    border-right: 2px solid pink;
+   background-color: #ccc;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.image {
+  
+   
+}
+.image form{ width: 60%;
+   margin-left: 50px;
+   background-color: #ccc;
+}
+
+/* here the code for timer begins */
+
+.container{
+   width: 50%;
+   float: left;
+  margin-left: 10%;
+}
+
+h2{
+ color: #396;
+ font-size: 40px;
+ margin: 40px 0px 20px;
+} 
+
+#clockdiv{
+   font-family: sans-serif;
+   color: white;
+   display: inline-block;
+   font-weight: 100;
+   text-align: center;
+   font-size: 30px;
+  
+}
+
+#clockdiv > div{
+   padding: 10px;
+   border-radius: 3px;
+   display: inline-block;
+   background-color: gray;
+}
+
+#clockdiv div > span{
+   padding: 15px;
+   border-radius: 3px;
+   display: inline-block;
+}
+
+.smalltext{
+   padding-top: 5px;
+   font-size: 16px;
+}
+#start{
+    background-color: red;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   display: block;
+   margin-top: 10px;
+}
+#start:hover{
+   background-color: #45a049;
+}
